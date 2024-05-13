@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@700&family=Press+Start+2P&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Kdam+Thmor+Pro&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <title>PokéDex</title>
+    </head>
+
+    <body>
+        
+        <div class="Logo d-flex align-items-center">
+            <img src="assets/Pokédex_logo.png" alt="PokeDex" style="margin: 10px; width: 350px; height: 95px; ">
+            
+        </div>
+        <div class="fluid-container">
+            <div class="row">
+                <div class="col-8">
+                    <div class="flex-container ContainerPokemon" id="basePokeContainer"></div>
+                </div>
+                <div class="col-4 PokeInfoContainer" id="LateralInfoBar">
+                    <div class="GifBox" id="GifBox"></div>
+                    <div class="GenericTypeContainer">
+                        <div class="TypesText">
+                            <h6>Types:</h6>
+                        </div>
+                        <div class="TypesContainer d-flex">
+                            <div class="Type1" id="Type1"></div>
+                            <div class="Type2" id="Type2"></div>
+                        </div>
+                    </div>
+                    <div class="StatsBox" id="StatsBox">
+                        <div class="GenericATK">
+                            <div id="current-pokemon-stats-atk">
+                                <span id="SpanATK"></span>
+                            </div>
+                            <div class="ATKPrint">
+                                <h6>ATK</h6>
+                            </div>
+                        </div>       
+                        <div class="GenericHP">
+                            <div id="current-pokemon-stats-hp">
+                                <span id="SpanHP"></span>
+                            </div>
+                            <div class="HPPrint">
+                                <h6>HP</h6>
+                            </div>
+                        </div>   
+                        <div class="GenircDEF">
+                            <div id="current-pokemon-stats-def">
+                                <span id="SpanDEF"></span>
+                            </div>
+                            <div class="DEFPrint">
+                                <h6>DEF</h6>
+                            </div>
+                        </div>                  
+                        <div class="GenericSPA">
+                            <div id="current-pokemon-stats-spa">
+                                <span id="SpanSPA"></span>
+                            </div>
+                            <div class="SPAPrint">
+                                <h6>SPA</h6>
+                            </div>
+                        </div>                   
+                        <div class="GenericSPD">
+                            <div id="current-pokemon-stats-spd">
+                                <span id="SpanSPD"></span>
+                            </div>
+                            <div class="SPDPrint">
+                                <h6>SPD</h6>
+                            </div>
+                        </div>                   
+                        <div class="GenericSPEED">
+                            <div id="current-pokemon-stats-speed">
+                                <span id="SpanSPEED"></span>
+                            </div>
+                            <div class="SPEEDPrint">
+                                <h6>SPEED</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    <script src="script.js"></script>
+        
+    </body>
+</html>

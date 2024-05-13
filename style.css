@@ -1,0 +1,198 @@
+body {
+
+background-color: rgb(148, 148, 255);
+
+}
+
+.Logo {
+
+    background-color: rgb(244, 251, 170);
+    height: 130px;
+    width: 100%;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: start;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.flex-container > div {
+    background-color: rgb(244, 251, 170);
+    border-radius: 20px;
+    margin: 4px;
+    padding : 0px;
+    cursor: pointer;
+}
+
+.flex-container h2{
+    font-family: "Comic Sans MS", sans-serif;
+    font-size: 6px;
+    text-align: center;
+    font-size: 10px;
+    color: rgb(0, 0, 0);
+    text-align: center; 
+    word-wrap: wrap;
+}
+
+.flex-container img{
+    justify-content: center;
+}
+
+.searchbar{
+    align-items: center;
+}
+
+.PokeInfoContainer{
+    text-align: center;
+    background-color: rgb(244, 251, 170);
+    border-radius: 20px;
+    padding: 50px;
+    top: 150px;
+    margin: 5px;
+    display: none;
+    position: fixed;
+    right: 0;
+    font-size: 10px;
+}
+
+.GifImageContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.GifImageContainer  img{
+    width: 25%;
+    margin: 10px;
+}
+
+/* POKEMON STATS START */
+
+#current-pokemon-stats-atk{
+    font-family: "Archivo Black", sans-serif;   
+    background-color: yellow;
+    position: relative;
+    border-radius: 50%;
+    width: 50px;
+    height: 40px;
+    border: 3px solid black;
+    margin: 0 auto;
+}
+
+#current-pokemon-stats-hp{
+    font-family: "Archivo Black", sans-serif;
+    background-color: green;
+    position: relative;
+    border-radius: 50%;
+    width: 50px;
+    height: 40px;
+    border: 3px solid black;
+    margin: 0 auto;
+}
+#current-pokemon-stats-def{
+    font-family: "Archivo Black", sans-serif;
+    background-color: orange;
+    position: relative;
+    border-radius: 50%;
+    width: 50px;
+    height: 40px;
+    border: 3px solid black;
+    margin: 0 auto;
+}
+#current-pokemon-stats-spa{
+    font-family: "Archivo Black", sans-serif;
+    background-color: lightblue;
+    position: relative;
+    border-radius: 50%;
+    width: 50px;
+    height: 40px;
+    border: 3px solid black;
+    margin: 0 auto;
+}
+#current-pokemon-stats-spd{
+    font-family: "Archivo Black", sans-serif;
+    background-color: plum;
+    position: relative;
+    border-radius: 50%;
+    width: 50px;
+    height: 40px;
+    border: 3px solid black;
+    margin: 0 auto;
+}
+#current-pokemon-stats-speed{
+    font-family: "Archivo Black", sans-serif;
+    background-color: fuchsia;
+    position: relative;
+    border-radius: 50%;
+    width: 50px;
+    height: 40px; 
+    border: 3px solid black;
+    margin: 0 auto;
+}
+
+#StatsBox span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 14px;
+}
+
+.StatsBox > div{
+    margin: 10px;
+    width: 100%;
+    justify-content: center;
+}
+
+.StatsBox{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 10px;
+    top: 50%;
+}
+
+.StatsBox h6{
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.AllStats{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 10px;
+}
+
+.GenericTypeContainer{
+    justify-content: center;
+    font-size: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.GifBox{
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.TypesContainer{
+    width: 100%;
+    justify-content: center;
+}
+
+.Type1{
+    margin-right:200px
+}
+
+#LateralInfoBar{
+    margin-right: 2%;
+}
